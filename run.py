@@ -10,6 +10,7 @@ options = ['g++',
            '-O3',
            'src/' + path,
            '-o', f'./bin/{name}',
+           '-std=c++11',
            '-lgmp']
 subprocess.call(options)
 subprocess.call([f'./bin/{name}'])

@@ -12,7 +12,7 @@
 #include <numeric>
 #include <map>
 #include <cmath>
-#include <gmp.h>
+#include "InfInt.h"
 #include <set>
 
 #define print(x) std::cout << x << std::endl;
@@ -25,6 +25,7 @@ void euler();
 
 int main()
 {
+    std::cout << "anan" << std::endl;
     auto t1 = Clock::now();
     euler();
     auto t2 = Clock::now();
